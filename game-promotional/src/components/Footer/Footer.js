@@ -1,6 +1,6 @@
 import React from 'react';
 import  logo from '../../assets/Logo.png';
-import {FooterArrayCl1 , FooterArrayCl2, FooterArrayCl3} from './FooterArray';
+import {FooterArrayCl3} from './FooterArray';
 import './Footer.css';
 
 export function Footer(){

@@ -1,13 +1,11 @@
 import React from 'react';
 
 import Navbar from "../Header/Header";
-// import Video from '../Main/Video';
-// import Pricing from '../Pricing/pricinghome';
-// import Game from '../Games/Game';
  import Footer from '../Footer/Footer';
  import Background from '../Background/Background';
  import About from '../About-main/AboutMain';
  import Contact from '../Contact/ContactHelp';
+import Gallery from '../Gallery/Galleryheader';
 
 export function Home() {
     return (
@@ -16,11 +14,9 @@ export function Home() {
     <Navbar />
     <Background />
     <About />
+    <Gallery />
     <Contact />
-    {/* <Video />
-    <Game />
-    <Pricing />*/
-    <Footer /> }
+    <Footer /> 
 </>
 
     );

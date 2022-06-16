@@ -10,8 +10,7 @@ export function AboutMain(){
 
         <div className='vision'>
         <img className="about" src={image} alt="Logo"></img>
-        <h1>About Us</h1>
-        <h2 >Our Vision</h2>
+        <h1 >Our Vision</h1>
         <blockquote>
             "We envision millions of smart robots working under human supervision on and offworld, 
             turning the inner solar system into a better, gentler, greener place for life and civilization."

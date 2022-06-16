@@ -3,17 +3,9 @@
     height: 80vh;
 }
 
-.vision h1 {
-    font-size: 4.5rem;
-    color: rgb(255, 255, 255);
-    position: absolute;
-    margin-left: 36rem;
-    top: 110vh;
-    text-align: center;
-    border: solid 1px #fff;
-}
 
-.vision h2 {
+
+.vision h1 {
     font-size: 4.5rem;
     color: rgb(255, 255, 255);
     text-align: left;

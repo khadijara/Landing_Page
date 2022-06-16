@@ -41,7 +41,8 @@ export function ContactForm() {
                 </div>
                 <div >
                     <Button type="submit" className="submitF" >Send</Button>
-                </div>
+                    
+                </div><br></br>
             </form>
         </div>
         </>
