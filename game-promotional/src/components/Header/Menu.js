@@ -1,29 +1,29 @@
 export const Menu = [
     {
-        id: 1,
+        id: "menu.home",
     title: 'Home',
         url: '/off_World',
             classname: 'header-links',
 
     },
 {
-    id: 2,
-    title: 'Team',
-        url: '/Team',
+    id: "2",
+    title: 'Gallery',
+        url: '#Gallerys',
             classname: 'header-links',
 
     },
 {
-    id: 3,
+    id: "3",
     title: 'AboutUs',
-        url: '/About',
+        url: '#Abouts',
             classname: 'header-links',
 
     },
     {
-        id: 4,
+        id: "4",
         title: 'ContactUs',
-        url: '/Contact',
+        url: '#Contacts',
         classname: 'header-links',
     },    
 ]

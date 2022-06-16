@@ -8,7 +8,7 @@ export function AboutMain(){
     return(
         <>
 
-        <div className='vision'>
+        <div className='vision' id='Abouts'>
         <img className="about" src={image} alt="Logo"></img>
         <h1 >Our Vision</h1>
         <blockquote>

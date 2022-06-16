@@ -6,7 +6,7 @@ export function ContactHelp() {
     return (
 <>
     
-    <div className="container2">
+    <div className="container2" id="Contacts">
         <div className="col-md-12">  
                 <h1>Contact Us</h1>
                 <p>

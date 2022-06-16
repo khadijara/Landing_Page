@@ -3,7 +3,15 @@
     height: 80vh;
 }
 
+.vision h1 {
+    font-size: 4.5rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 36rem;
+    top: 110vh;
+    text-align: center;
 
+}
 
 .vision h1 {
     font-size: 4.5rem;
@@ -63,15 +71,15 @@
 
 
 @media screen and (max-width: 960px) {
-    .vision h1 {
-    font-size: 4.5rem;
+.vision h1 {
+    font-size: 3rem;
     color: rgb(255, 255, 255);
     text-align: left;
     position: absolute;
     margin: auto;
     width: 100%;
     height: 100%;
-    top: 90vh;
+    top: 50vh;
     text-align: center;
 }
 .vision blockquote {
@@ -79,31 +87,26 @@
     color: rgb(255, 255, 255);
     text-align: center;
     margin: auto;
-    width: 758px;
+    width: 260px;
     height: 100%;
-    top: 104vh;
+    top: 65vh;
     margin-right: 14rem;
     text-align: center;
     font-style: italic;
     position: absolute;
     margin-left: 10%;
 }
-
+.vision {
+    height: 760px;
+}
+.about {
+    width: 100%;
+    height: 760px;
+}
 .pvision {
-    top: 120vh;
+    top: 113vh;
     margin-left: 10%;
-}
-.vision .who {
-
-    top: 170vh;
+    width: 260px;
 }
 
-.ppvision {
-    top: 190vh;
-    margin-left: 5%;
-}
-.what {
-    top: 190.5vh;
-    margin-left: 35rem;
-}
 }

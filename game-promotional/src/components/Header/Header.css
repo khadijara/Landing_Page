@@ -33,7 +33,8 @@ nav.Header {
 .header-links {
     color: white;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    /* padding: 0.5rem 1rem; */
+    padding: 1.5rem;
 }
 
 .header-links:hover {
@@ -81,7 +82,7 @@ nav.Header {
 
     .header-links {
         text-align: center;
-        padding: 2rem;
+        padding: 1.5rem;
         width: 100%;
         display: table;
     }
@@ -99,6 +100,10 @@ nav.Header {
 
     }
 
+    .selects {
+        margin-left: 40%;
+    font-size: 1.3rem;
+    }
     .Menu {
         display: block;
         position: absolute;

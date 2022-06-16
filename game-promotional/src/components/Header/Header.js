@@ -4,21 +4,29 @@ import React from 'react'
 import { Menu } from './Menu';
 import './Header.css';
 
+
+
 // import logo from '../../assets/Logo.png';
 
 
 class Header extends React.Component {
+
 
     state = { clicked: false} //stating when you click on something
     click = () => {
         this.setState({clicked: !this.state.clicked}) //if clicked is true, set it to false, else set it to true
     }
 
-    
+    // change(option){
+    //     console.log(option.target.value);
+    //     localStorage.setItem('language', option.target.value);
+    //     window.location.reload();
+    // }
 
 
     
     render() {
+
         return (
             <nav className='Header'>
                 <h1 className='Header-logo'>
@@ -41,7 +49,11 @@ class Header extends React.Component {
                     })}
 
                 </ul>
-                
+                <select className='selects' onChange={this.change} >
+                    <option value="es-ES">Español</option>
+                    <option value="en-US">English</option>
+
+                </select>
             </nav>
         )
     }

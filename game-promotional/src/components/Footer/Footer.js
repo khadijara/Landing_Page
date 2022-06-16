@@ -24,6 +24,7 @@ export function Footer(){
                                         {item.title}
                                     </a>
                                 </h1>
+                            
                             );
                         })}
 
